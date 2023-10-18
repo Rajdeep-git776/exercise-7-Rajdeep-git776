@@ -34,4 +34,12 @@ public class Dog extends Pet {
     public String play() {
         return "plays with bone";
     }
+
+    public String getName() {
+        return name;
+    }
+
+    public int getAge() {
+        return age;
+    }
 }
